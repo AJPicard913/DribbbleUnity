@@ -15,6 +15,12 @@
 		095E5900251E71E100A6BA3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095E58D5251E71DF00A6BA3C /* ContentView.swift */; };
 		095E5901251E71E100A6BA3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095E58D6251E71E000A6BA3C /* Assets.xcassets */; };
 		095E5902251E71E100A6BA3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095E58D6251E71E000A6BA3C /* Assets.xcassets */; };
+		095E5912251E774000A6BA3C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095E5911251E774000A6BA3C /* HeaderView.swift */; };
+		095E5913251E774000A6BA3C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095E5911251E774000A6BA3C /* HeaderView.swift */; };
+		095E5918251E79E400A6BA3C /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095E5917251E79E400A6BA3C /* UserView.swift */; };
+		095E5919251E79E400A6BA3C /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095E5917251E79E400A6BA3C /* UserView.swift */; };
+		095E591B251E7D0200A6BA3C /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095E591A251E7D0200A6BA3C /* CircleView.swift */; };
+		095E591C251E7D0200A6BA3C /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095E591A251E7D0200A6BA3C /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		095E58F6251E71E000A6BA3C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		095E58FA251E71E000A6BA3C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		095E58FC251E71E100A6BA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095E5911251E774000A6BA3C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		095E5917251E79E400A6BA3C /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		095E591A251E7D0200A6BA3C /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,9 @@
 			children = (
 				095E58D4251E71DF00A6BA3C /* Dribbble_UnityApp.swift */,
 				095E58D5251E71DF00A6BA3C /* ContentView.swift */,
+				095E5911251E774000A6BA3C /* HeaderView.swift */,
+				095E5917251E79E400A6BA3C /* UserView.swift */,
+				095E591A251E7D0200A6BA3C /* CircleView.swift */,
 				095E58D6251E71E000A6BA3C /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,7 +321,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				095E58FF251E71E100A6BA3C /* ContentView.swift in Sources */,
+				095E591B251E7D0200A6BA3C /* CircleView.swift in Sources */,
+				095E5912251E774000A6BA3C /* HeaderView.swift in Sources */,
 				095E58FD251E71E100A6BA3C /* Dribbble_UnityApp.swift in Sources */,
+				095E5918251E79E400A6BA3C /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +333,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				095E5900251E71E100A6BA3C /* ContentView.swift in Sources */,
+				095E591C251E7D0200A6BA3C /* CircleView.swift in Sources */,
+				095E5913251E774000A6BA3C /* HeaderView.swift in Sources */,
 				095E58FE251E71E100A6BA3C /* Dribbble_UnityApp.swift in Sources */,
+				095E5919251E79E400A6BA3C /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
